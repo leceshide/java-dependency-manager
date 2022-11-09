@@ -1,0 +1,40 @@
+[
+  {
+    "groupId": "redis.clients",
+    "artifactId": "jedis",
+    "version": "2.10.2",
+    "typ": "new",
+    "opt": "option",
+    "remark": "升级说明test, 新增，可选，这里可以输入升级的目的、建议等"
+  },
+  {
+    "groupId": "com.ctrip.framework.apollo",
+    "artifactId": "apollo-client",
+    "version": "1.8.1",
+    "typ": "update",
+    "opt": "force",
+    "remark": "升级说明test, 更新，必须升级，这里可以输入升级的目的、建议等"
+  },
+  {
+    "groupId": "com.alibaba",
+    "artifactId": "fastjson",
+    "version": "1.2.83",
+    "typ": "update",
+    "opt": "option",
+    "remark": "升级说明test, 更新，可选，之前没引入可忽略，这里可以输入升级的目的、建议等"
+  },
+  {
+    "groupId": "io.opentracing.contrib",
+    "artifactId": "opentracing-spring-cloud-starter-jaeger",
+    "typ": "exclude",
+    "opt": "exclude",
+    "remark": "删除 （建议在configurations.all中加上exclude module: 'xxx'，确保完全移除）"
+  },
+  {
+    "groupId": "io.opentracing.contrib",
+    "artifactId": "opentracing-spring-web-starter",
+    "typ": "exclude",
+    "opt": "exclude",
+    "remark": "删除 （建议在configurations.all中加上exclude module: 'xxx'，确保完全移除）"
+  }
+]
